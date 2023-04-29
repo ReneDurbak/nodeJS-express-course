@@ -19,6 +19,7 @@ console.log(first, second)
 
 // if the file is not there node will create one and if there is one node will overwrite all the valuse that are in the file
 //writeFileSync - first paramter - path where you want to create a file or what file you want to overwrtie, second parameter - what text do you want in that file
+
 /*writeFileSync(
      './content/result-sync.txt',
     `Here is the result: ${first}, ${second}`
